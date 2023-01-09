@@ -1,0 +1,52 @@
+st`` module
+=============================
+
+Using ``MyList``
+---------------------
+
+Import the class:
+
+    >>> MyList = __import__('1-my_list').MyList
+
+Now test it:
+
+    >>> my_list = MyList()
+
+    >>> my_list
+    []
+
+    >>> my_list.append(1)
+
+    >>> my_list.append(4)
+
+    >>> my_list.append(2)
+
+    >>> my_list
+    [1, 4, 2]
+
+    >>> my_list.print_sorted()
+    [1, 2, 4]
+
+    >>> my_list
+    [1, 4, 2]
+
+    >>> my_list = MyList([3, 6, 2])
+    Traceback (most recent call last):
+      File "/usr/lib/python3.10/doctest.py", line 1350, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 1-my_list.txt[9]>", line 1, in <module>
+        my_list = MyList([3, 6, 2])
+    TypeError: MyList.__init__() takes 1 positional argument but 2 were given
+
+    >>> my_list = MyList("hello")
+    Traceback (most recent call last):
+      File "/usr/lib/python3.10/doctest.py", line 1350, in __run
+        exec(compile(example.source, filename, "single",
+      File "<doctest 1-my_list.txt[12]>", line 1, in <module>
+        my_list = MyList("hello")
+    TypeError: MyList.__init__() takes 1 positional argument but 2 were given
+
+    >>> new_l = MyList()
+
+    >>> new_l.print_sorted()
+    []
