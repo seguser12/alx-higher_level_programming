@@ -2,7 +2,6 @@
 '''working with python input/output'''
 
 
-
 class Student:
     """Represent a student."""
 
