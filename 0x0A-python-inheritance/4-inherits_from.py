@@ -1,15 +1,9 @@
 #!/usr/bin/python3
-"""Defines a class checking function."""
+"""Module containing inherits_from method"""
 
 
-def is_same_class(obj, a_class):
-    """
-    function to determine if obj is an inherited instance of a_class
-    args:
-        obj: object to check
-        a_class: class to verify the instance of
-    return:
-        True if obj is an instance of a_class; false otherwise
-    """
-
+def inherits_from(obj, a_class):
+    """returns True if the object is an instance of a class that
+    inherited (directly or indirectly) from the specified class;
+    otherwise False"""
     return isinstance(obj, a_class) and type(obj) != a_class
