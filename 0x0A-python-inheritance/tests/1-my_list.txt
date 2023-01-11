@@ -36,7 +36,7 @@ Now test it:
         exec(compile(example.source, filename, "single",
       File "<doctest 1-my_list.txt[9]>", line 1, in <module>
         my_list = MyList([3, 6, 2])
-    TypeError: MyList.__init__() takes 1 positional argument but 2 were given
+    TypeError: __init__() takes 1 positional argument but 2 were given
 
     >>> my_list = MyList("hello")
     Traceback (most recent call last):
@@ -44,7 +44,7 @@ Now test it:
         exec(compile(example.source, filename, "single",
       File "<doctest 1-my_list.txt[12]>", line 1, in <module>
         my_list = MyList("hello")
-    TypeError: MyList.__init__() takes 1 positional argument but 2 were given
+    TypeError: __init__() takes 1 positional argument but 2 were given
 
     >>> new_l = MyList()
 
