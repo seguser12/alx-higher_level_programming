@@ -13,8 +13,8 @@ class Square(Rectangle):
         Initialize a new square
         :param size: the size of the new square
         """
-        super().integer_validator("size", size)
-        super().__init__()
+        self.integer_validator("size", size)
+        super().__init__(size, size)
         self.__size = size
 
     def area(self):
@@ -25,4 +25,4 @@ class Square(Rectangle):
         """
         :return: The square description
         """
-        return str("[square] {}/{]".format(self.__size, self.__size))
+        return "[square] {}/{]".format(self.__size, self.__size)
