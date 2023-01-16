@@ -112,7 +112,7 @@ class TestRectangle(unittest.TestCase):
 
         r2 = Rectangle(1, 3, 5, 8)
         with self.assertRaisesRegex(TypeError, 'width must be an integer'):
-            r2.update(3,'hi')
+            r2.update(3, 'hi')
         with self.assertRaisesRegex(TypeError, 'height must be an integer'):
             r2.update(4, 8, '7')
         r2.update(height=10, x=7, y=8, width=16)
