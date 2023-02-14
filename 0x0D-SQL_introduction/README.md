@@ -4,8 +4,8 @@
 An introduction to SQL with the objectibe of learning how to write sql command using MySQL, as part of the ALx software engineering program.
 
 ## Tasks
-|Tasks|      Description         | Completed |
-|-----     ------------------      --------- |
+|Tasks|                                     Description                                                                    | Completed |
+|-----                                    ------------------                                                                  ---------|
 |0 |lists all databases of your MySQL server.| &check;|
 |1 |creates the database hbtn_0c_0 in your MySQL server| &check;|
 |2 |deletes the database hbtn_0c_0 in your MySQL server | &cross; |
