@@ -5,4 +5,4 @@ An introduction to SQL with the objectibe of learning how to write sql command u
 
 ## Tasks
 |Tasks| Description | Completed |
-|----- -------------  ----------|
+|-----|-------------| ----------|
