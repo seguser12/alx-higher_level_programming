@@ -6,6 +6,6 @@ if (isNaN(count)) {
 }
 
 while (count > 0) {
-  console.log('c is fun');
+  console.log('C is fun');
   count -= 1;
 }
